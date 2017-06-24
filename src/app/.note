@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>React Setup</title>
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" src="index.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<!-- 欲插入 React Component 的位置 -->
+	<div id="app"></div>
+	<nav id="toolbar">
+		<p id="NCTU+">NCTU+</p>
+		<p id="allcourse">全校課程</p>
+		<p id="ordercourse">模擬排課</p>
+		<p id="secondbook">二手書</p>
+		<p id="eventbar">活動吧</p>
+		<p id="courselist">課程收藏</p>
+		<p id="problemshoot">問題回報</p>
+	</nav>
+	<div id="menulist">
+		<div id="newhouse">
+			<p>+新增租屋</p>
+		</div>
+		<div id="myhouse">
+			<p>我的房屋</p>
+		</div>
+		<div id="price">
+			<div id="價錢">
+				<p>價錢<p>
+				<div class=triangle></div>
+			</div>
+			<div id="priceoptionallist"></div>
+		</div>
+		<div id="roomtype">
+			<div id="格局">
+				<p>格局<p>
+				<div class=triangle></div>
+			</div>
+			<div id="roomtypeoptionallist"></div>
+		</div>
+		<div id="housetype">
+			<div id="類型">
+				<p>類型</p>
+				<div class=triangle></div>
+			</div>
+			<div id="housetypeoptionallist"></div>
+		</div>
+		<div id="section">
+			<div id="路段">
+				<p>路段<p>
+				<div class=triangle></div>
+			</div>
+			<div id="sectionoptionallist"></div>
+		</div>
+		<div id="stars">
+			<div id="評分">
+				<p>評分<p>
+				<div class=triangle></div>
+			<div id="starsoptionallist"></div>
+			</div>
+		</div>
+		<div id="moveinyear">
+			<div id="入住日">
+				<p>入住日<p>
+				<div class=triangle></div>
+			<div id="moveinyearoptionallist"></div>
+		</div>
+	</div>
+	<div id="showhouse"></div>
+</body>
+</html>
